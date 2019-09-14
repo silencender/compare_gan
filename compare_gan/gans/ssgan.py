@@ -219,8 +219,8 @@ class SSGAN(modular_gan.ModularGAN):
       c_fake_loss = 0.0
       accuracy = tf.zeros([])
 
-    self._tpu_summary.scalar("loss/c_real_loss", c_real_loss)
-    self._tpu_summary.scalar("loss/c_fake_loss", c_fake_loss)
-    self._tpu_summary.scalar("accuracy/d_rotation", accuracy)
-    self._tpu_summary.scalar("loss/penalty", penalty_loss)
+    #self._tpu_summary.scalar("loss/c_real_loss", c_real_loss)
+    #self._tpu_summary.scalar("loss/c_fake_loss", c_fake_loss)
+    #self._tpu_summary.scalar("accuracy/d_rotation", accuracy)
+    #self._tpu_summary.scalar("loss/penalty", penalty_loss)
 

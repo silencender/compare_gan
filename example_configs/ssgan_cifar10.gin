@@ -23,6 +23,6 @@ loss.fn = @non_saturating
 penalty.fn = @no_penalty
 ModularGAN.g_lr = 0.0002
 ModularGAN.g_optimizer_fn = @tf.train.AdamOptimizer
-SSGAN.rotated_batch_size = 32
+SSGAN.rotated_batch_size = 4
 tf.train.AdamOptimizer.beta1 = 0.5
 tf.train.AdamOptimizer.beta2 = 0.999
